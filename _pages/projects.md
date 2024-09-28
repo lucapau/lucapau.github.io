@@ -9,6 +9,25 @@ display_categories: [academic, personal]
 horizontal: false
 ---
 
+- title: "QT4in1 App"
+  description: "A multi-featured application including Weather Forecasting, Currency Conversion, a Password Manager, and a Note-Taking feature."
+  category: academic
+  link: "https://github.com/lucapau/QT4in1App"
+  importance: 1
+
+- title: "Restaurant Web App"
+  description: "A full-stack restaurant review website built with Django."
+  category: academic
+  link: "https://github.com/lucapau/restaurant_webapp"
+  importance: 2
+
+- title: "Unity 2D Platformer"
+  description: "A 2D platformer game demonstrating skills in game design, physics, and user experience."
+  category: personal
+  link: "https://github.com/lucapau/Unity2DPlatformer"
+  importance: 3
+
+
 <!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
