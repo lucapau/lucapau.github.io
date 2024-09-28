@@ -75,3 +75,4 @@ Here's the code for the last row of images above:
     {% include figure.liquid path="assets/img/ui_example.jpg" title="User Interface Example" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
+{% endraw %}
