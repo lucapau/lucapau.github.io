@@ -1,32 +1,13 @@
 ---
 layout: page
-title: Projects
+title: projects
 permalink: /projects/
-description: A showcase of my growing collection of technical and creative projects.
+description: A growing collection of your cool projects.
 nav: true
 nav_order: 3
-display_categories: [academic, personal]
+display_categories: [work, fun]
 horizontal: false
 ---
-
-- title: "QT4in1 App"
-  description: "A multi-featured application including Weather Forecasting, Currency Conversion, a Password Manager, and a Note-Taking feature."
-  category: academic
-  link: "https://github.com/lucapau/QT4in1App"
-  importance: 1
-
-- title: "Restaurant Web App"
-  description: "A full-stack restaurant review website built with Django."
-  category: academic
-  link: "https://github.com/lucapau/restaurant_webapp"
-  importance: 2
-
-- title: "Unity 2D Platformer"
-  description: "A 2D platformer game demonstrating skills in game design, physics, and user experience."
-  category: personal
-  link: "https://github.com/lucapau/Unity2DPlatformer"
-  importance: 3
-
 
 <!-- pages/projects.md -->
 <div class="projects">
@@ -34,14 +15,10 @@ horizontal: false
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
   <a id="{{ category }}" href=".#{{ category }}">
-
-    <!-- Personalized category names -->
-    <h2 class="category">{{ category == 'academic' ? 'Academic Projects' : 'Personal Projects' }}</h2>
-
+    <h2 class="category">{{ category }}</h2>
   </a>
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
-
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
   <div class="container">
