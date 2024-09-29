@@ -4,20 +4,11 @@ title: 4-in-1 QT App
 description: A multi-functional application featuring Weather Forecasting, Currency Conversion, Password Management, and Note-Taking.
 img: assets/img/weatherforecast.PNG
 importance: 1
-category: work
-related_publications: true
+category: fun
+related_publications: false
 ---
 
 The 4-in-1 QT App is a comprehensive tool designed to streamline everyday tasks. It includes a weather forecasting feature, currency conversion, a password manager, and a note-taking function, all wrapped in a user-friendly interface.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: 4-in-1 QT App
-    description: A project with a background image
-    img: /assets/img/12.jpg
-    ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -42,11 +33,6 @@ To give your project a background in the portfolio page, just add the img tag to
 <div class="caption">
     The Note-Taking feature allows users to manage tasks efficiently.
 </div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/overall_design.jpg" title="Overall Design" class="img-fluid rounded z-depth-1" %}
@@ -58,12 +44,6 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
 <div class="caption">
     The overall design of the app showcases its user-friendly interface.
 </div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
 {% raw %}
 
 ```html
