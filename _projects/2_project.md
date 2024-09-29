@@ -4,7 +4,7 @@ title: Restaurant Review App
 description: A full-stack web application for browsing, reviewing, and managing restaurants.
 img: assets/img/RestaurantReview.PNG
 importance: 1
-category: fun
+category: work
 related_publications: false
 ---
 
