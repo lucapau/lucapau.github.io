@@ -2,7 +2,7 @@
 layout: page
 title: 4-in-1 QT App
 description: A multi-functional application featuring Weather Forecasting, Currency Conversion, Password Management, and Note-Taking.
-img: assets/img/12.jpg
+img: assets/img/weatherforecast.PNG
 importance: 1
 category: work
 related_publications: true
@@ -21,13 +21,13 @@ To give your project a background in the portfolio page, just add the img tag to
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/weather_forecast.jpg" title="Weather Forecast Feature" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/weatherforecast.PNG" title="Weather Forecast Feature" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/currency_converter.jpg" title="Currency Converter Feature" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/currencyconverter.PNG" title="Currency Converter Feature" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/password_manager.jpg" title="Password Manager Feature" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/passwords.PNG" title="Password Manager Feature" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -36,7 +36,7 @@ To give your project a background in the portfolio page, just add the img tag to
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/note_taking.jpg" title="Note-Taking Feature" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/todolist.PNG" title="Note-Taking Feature" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
