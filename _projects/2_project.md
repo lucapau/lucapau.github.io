@@ -51,7 +51,6 @@ The Restaurant Review App is a dynamic platform built with Django, designed to c
 - **Main Window**: A central list of restaurants with an easy-to-use filter for cuisine type.
 - **Restaurant Creation**: Restaurant owners can create and manage restaurant profiles, including menu, location, and responding to customer reviews.
 
-```html
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
     {% include figure.liquid path="assets/img/restaurantsignup.PNG" title="Restaurant Signup" class="img-fluid rounded z-depth-1" %}

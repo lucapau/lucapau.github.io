@@ -57,14 +57,14 @@ Add, edit, and mark tasks as complete. Keep track of daily tasks and manage to-d
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/overall_design.jpg" title="Overall Design" class="img-fluid rounded z-depth-1" %}
+       
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/ui_example.jpg" title="User Interface Example" class="img-fluid rounded z-depth-1" %}
+        
     </div>
 </div>
 <div class="caption">
-    The overall design of the 4-in-1 Qt App provides a cohesive and intuitive user experience.
+   
 </div>
 
 ### Running the Executable
@@ -81,14 +81,12 @@ To run the executable for this Qt application:
 - **C++**: Core logic and functionality of the application.
 - **Qt Framework**: For building the GUI and managing app functions.
 - **API Integrations**: Fetching live data for weather forecasts and currency conversion.
-
-```html
 <div class="row justify-content-sm-center">
 <div class="col-sm-8 mt-3 mt-md-0">
- {% include figure.liquid path="assets/img/overall_design.jpg" title="Overall Design" class="img-fluid rounded z-depth-1" %}
+ 
 </div>
 <div class="col-sm-4 mt-3 mt-md-0">
- {% include figure.liquid path="assets/img/ui_example.jpg" title="User Interface Example" class="img-fluid rounded z-depth-1" %}
+ 
 </div>
 </div>
 
